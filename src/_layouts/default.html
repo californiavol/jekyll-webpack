@@ -1,19 +1,22 @@
 <html>
-<head>
-
-</head>
+{% include head.html %}
 
 <body>
-<div id="header">
+<div id="header-wrap">
     {% include header.html %}
 </div>
-<div id="navigation">
+
+<div id="navigation-wrap">
     {% include navigation.html %}
 </div>
 
-{{content}}
-<div id="footer">
+<div id="main-wrap">
+    {{content}}
+</div>
+
+<div id="footer-wrap">
     {% include footer.html %}
 </div>
+
 </body>
 </html>
