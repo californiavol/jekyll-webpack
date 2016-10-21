@@ -1,0 +1,43 @@
+{
+  "name": "jekyll-webpack",
+  "version": "1.0.0",
+  "description": "Website built with Jekyll and Webpack",
+  "main": "./src/assets/js/entry.js",
+  "scripts": {
+    "test": "update",
+    "start": "webpack ./src/_assets/js/entry.js ./dist/assets/app.bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/californiavol/jekyll-webpack.git"
+  },
+  "keywords": [
+    "jekyll",
+    "webpack"
+  ],
+  "author": "Charles Brown-Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/californiavol/jekyll-webpack/issues"
+  },
+  "homepage": "https://github.com/californiavol/jekyll-webpack#readme",
+  "devDependencies": {
+    "css-loader": "^0.25.0",
+    "fullcalendar": "^3.0.1",
+    "jquery": "^3.1.1",
+    "moment": "^2.15.1",
+    "node-sass": "^3.10.1",
+    "scss-loader": "0.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2",
+    "bootstrap-loader": "^1.2.1",
+    "bootstrap-sass": "^3.3.7",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "resolve-url-loader": "^1.6.0",
+    "sass-loader": "^4.0.2",
+    "sass-resources-loader": "^1.1.0",
+    "url-loader": "^0.5.7"
+  }
+}
